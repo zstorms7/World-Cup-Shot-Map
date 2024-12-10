@@ -121,7 +121,7 @@ if view == "Goal View":
     ax.set_ylim(-0.5, goal_height + 0.5)
     ax.set_aspect('equal', adjustable='box')
     ax.axis('off')
-    ax.set_title("Goal View - Shots on Target (StatsBomb Coordinates)")
+    ax.set_title("Goal View - Shots on Target")
 
     
     st.pyplot(fig)
